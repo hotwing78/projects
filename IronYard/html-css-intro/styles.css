@@ -1,0 +1,23 @@
+body{
+  background-color: red;
+  font-family: 'Indie Flower', Arial, sans-serif;
+}
+
+#myheader{
+  width :100%;
+  background-color: green;
+  margin
+
+}
+
+#myheader h1{
+  display: inline-block;;
+}
+
+
+
+#myheader ul li{
+  list-style-type: none;
+  display:inline-block;
+  margin-right: 10px;
+}

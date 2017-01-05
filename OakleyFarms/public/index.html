@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app='OakleyFarms'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Oakley Farms</title>
+    <link rel="normalize" href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css'>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
+    <script src="/js/app.js"></script>
+
+  </head>
+
+  <body ng-cloak>
+    <div class = 'navbar'>
+      <div class="logo"></div>
+      <div class="title">
+        <span><h1>Oakley Farms</h1></span>
+      </div>
+      <div class="link-container">
+        <ul class="links">
+          <li class="link">About</li>
+          <li class="link">Gallery</li>
+          <li class="link">Rates</li>
+          <li class="link">Contacts</li>
+        </ul>
+      </div>
+    </div>
+    <main ng-view></main>
+    <footer class="footer">
+      <div class="web-cred">
+        <p>Web by Damon Wingo</p>
+      </div>
+      <div class="social-media">
+        <p>Oakley Farms</p>
+      </div>
+      <div class="email">
+        <p>Email us <a href="Thebarn@OakleyFarms.com">Thebarn@OakleyFarms.com</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

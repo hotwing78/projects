@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body ng-app="todo">
+    <div ng-controller="mainCtrl">
+    	<!-- Todos go here -->
+    	<div ng-repeat="todo in todos">
+				{{todo.text}}
+				<input type="button" ng-click="editTodo(todo.id)" value="Edit"></input>
+    		<input type="button" ng-click="deleteTodo(todo.id)" value="X"></input>
+    	</div> 
+    	<!-- Add input box here and call createTodo(text) -->
+    	<input type="text" ng-model="todoText"></input>
+    	<input type="button" ng-click="createTodo(todoText)" value="Enter"></input>
+    </div>
+  </body>
+</html>
+
+
+<!--  This is test code for a buncha models.     
+			<input type="text" ng-model="name" />
+      <h2>{{name}}</h2>
+      <h2>{{address}}</h2>
+      <h2>{{postalCode}}</h2> -->

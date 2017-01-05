@@ -1,0 +1,1 @@
+function something(e){return 2*e}var applesauce=15;something(applesauce);

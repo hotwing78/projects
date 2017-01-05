@@ -1,0 +1,78 @@
+iframe {
+  width: 100%;
+  height: 440px; }
+
+.venue {
+  height: 200px;
+  display: inline-block; }
+
+.about {
+  height: 200px;
+  display: inline-block; }
+
+@font-face {
+  font-family: Apple;
+  src: url("/assets/Apple Chancery.ttf"), url("/assets/Apple Chancery.ttf");
+  /* IE */ }
+
+html {
+  background: url("/assets/linenBackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  font-family: Apple;
+  margin: 0;
+  color: rgba(123, 50, 50, 0.64); }
+
+.navbar {
+  opacity: 0.7;
+  height: 10vh;
+  width: 100%;
+  background: #fff; }
+
+.navbar * {
+  display: inline-block; }
+
+.title {
+  position: relative;
+  left: 5%; }
+
+.link-container {
+  width: 50%;
+  left: 33%;
+  position: relative;
+  text-align: center; }
+  .link-container .links {
+    width: 100%;
+    padding: 0; }
+    .link-container .links .link {
+      margin: 0 1%;
+      padding: 0 3%;
+      border: 2px solid transparent;
+      transition: all 0.3s; }
+      .link-container .links .link:hover {
+        opacity: 1.0 !important;
+        cursor: pointer;
+        border: 2px solid rgba(123, 50, 50, 0.64);
+        -webkit-border-image: url("http://previews.123rf.com/images/maxxxjo/maxxxjo1310/maxxxjo131000816/23185817-Elegant-border-frame-Stock-Vector-page.jpg") 30;
+        /*  Safari: 3.1-5 */
+        -o-border-image: url("http://previews.123rf.com/images/maxxxjo/maxxxjo1310/maxxxjo131000816/23185817-Elegant-border-frame-Stock-Vector-page.jpg") 30;
+        /* Opera:11-12.1 */
+        border-image: url("http://previews.123rf.com/images/maxxxjo/maxxxjo1310/maxxxjo131000816/23185817-Elegant-border-frame-Stock-Vector-page.jpg") 30; }
+
+.clear-fix {
+  clear: both; }
+
+.footer {
+  opacity: 0.7;
+  width: 100%;
+  background: #fff; }
+  .footer div {
+    width: 33%;
+    text-align: center;
+    display: inline-block; }
+  .footer div * {
+    width: 100%; }
